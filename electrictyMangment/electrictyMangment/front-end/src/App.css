@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  background-image: url("../public/bg3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(4px);
+  color: #fff;
+  min-height: 100vh;
+}
+
+.login-row {
+ height: 100vh;
+}
+.login-wrapper {
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px !important;
+  -webkit-backdrop-filter: blur(8px); 
+  backdrop-filter: blur(8px);
+  box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.08) !important;
+  background-color: transparent !important;
+}
+
+.login-wrapper.main-app-row{
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px); 
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+.about-wrapper{
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../public/herobg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  margin-top: 50px;
+  border-radius: 6px;
+}
+
+.header{
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.36);
+  width: 100%;
+  top: 10px;
+  border-radius: 50px;
+}
+
+.form-select{
+  background-color: transparent !important;
+  color: #fcfbfb !important;
+}
+.form-select option{
+  background-color: transparent !important;
+  color: #000 !important;
+}
+@media screen and (max-width:576px) {
+    h5{
+      font-size: 1rem;
+    }
+    .about-wrapper{
+      min-height: 200px;
+    }
+}
